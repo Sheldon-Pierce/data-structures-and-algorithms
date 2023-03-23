@@ -78,3 +78,5 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 ## Table of Contents
 
 ![array-reverse](./code_challenges/array_reverse/README.md)
+![array-insert-shift](./code_challenges/array_insert_shift/README.md)
+![array-binary-search](./code_challenges/array_binary_search/README.md)
