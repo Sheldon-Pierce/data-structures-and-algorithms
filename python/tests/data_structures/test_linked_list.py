@@ -54,7 +54,7 @@ def test_to_string_double():
 
 
 # @pytest.mark.skip("TODO")
-# def test_includes_true():
+def test_includes_true():
     linked_list = LinkedList()
 
     linked_list.insert("apple")
