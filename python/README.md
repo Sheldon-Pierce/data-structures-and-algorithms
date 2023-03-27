@@ -79,10 +79,10 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 
 ### Code Challenges
 
-![array-reverse](./code_challenges/array_reverse/README.md)
-![array-insert-shift](./code_challenges/array_insert_shift/README.md)
-![array-binary-search](./code_challenges/array_binary_search/README.md)
+[array-reverse](./code_challenges/array_reverse/README.md)
+[array-insert-shift](./code_challenges/array_insert_shift/README.md)
+[array-binary-search](./code_challenges/array_binary_search/README.md)
 
 ### Data Structures
 
-![linked-list](/linked_list/README.md)
+[linked-list](./linked_list/README.md)
