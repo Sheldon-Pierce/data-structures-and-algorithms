@@ -86,3 +86,4 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 ### Data Structures
 
 [linked-list](./linked_list/README.md)
+[linked-list-insertions](./linked_list/README_linked_list_insertions.md)
