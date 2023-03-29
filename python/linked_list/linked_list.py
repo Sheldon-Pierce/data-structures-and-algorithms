@@ -80,15 +80,28 @@ class LinkedList:
         except Exception:
             raise TargetError
 
-    def delete_value(self, value):
+    def delete_value(self, del_value):
         current = self.head
-        if current.value == value:
+        if current.value == del_value:
             self.head = self.head.next
         while current.next:
-            if current.next.value == value:
+            if current.next.value == del_value:
                 current.next = current.next.next
                 return
             current = current.next
+
+    def kth_from_end(self, k):
+        if k < 0:
+            raise TargetError
+        try:
+            lst = []
+            current = self.head
+            while current:
+                lst.insert(0, current.value)
+                current = current.next
+            return lst[k]
+        except Exception:
+            raise TargetError
 
 
 class Node:
@@ -104,19 +117,9 @@ class TargetError(ValueError):
 
 if __name__ == "__main__":
     linked_list = LinkedList()
-
-    linked_list.insert("apple")
-
-    linked_list.insert("banana")
-
-    linked_list.insert("cucumber")
-
-    linked_list.insert("Mango")
-
-    linked_list.insert("Watermelon")
-
-    linked_list.delete_value("cucumber")
+    values = ["apples", "bananas", "cucumbers"]
+    for value in reversed(values):
+        linked_list.insert(value)
     print(linked_list)
-
 
 
