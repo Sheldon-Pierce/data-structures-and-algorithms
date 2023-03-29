@@ -13,7 +13,7 @@ insert after
 - adds a new node with the given new value immediately after the first node that has the value specified
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-[linked_list_insertions](./linked_list/README_linked_list_insertions.md)
+[linked_list_insertions](../linked_list/codeChallenge6.png)
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 
