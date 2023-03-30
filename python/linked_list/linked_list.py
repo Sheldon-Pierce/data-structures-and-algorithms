@@ -103,6 +103,39 @@ class LinkedList:
         except Exception:
             raise TargetError
 
+    @staticmethod
+    def zip_lists(link_list_1, link_list_2):
+        if not link_list_1.head:
+            return link_list_2
+        if not link_list_2.head:
+            return link_list_1
+
+        new_list = LinkedList()
+        head_1 = link_list_1.head
+        head_2 = link_list_2.head
+        while head_1 and head_2:
+            new_list.insert(head_1.value)
+            new_list.insert(head_2.value)
+            head_1 = head_1.next
+            head_2 = head_2.next
+        print(new_list)
+
+        while head_1:
+            new_list.insert(head_1.value)
+            head_1 = head_1.next
+        while head_2:
+            new_list.insert(head_2.value)
+            head_2 = head_2.next
+
+        reversed_new_list = LinkedList()
+        some_number = new_list.head
+        while some_number:
+            reversed_new_list.insert(some_number.value)
+            some_number = some_number.next
+        print(reversed_new_list)
+
+        return reversed_new_list
+
 
 class Node:
 
@@ -116,10 +149,15 @@ class TargetError(ValueError):
 
 
 if __name__ == "__main__":
-    linked_list = LinkedList()
-    values = ["apples", "bananas", "cucumbers"]
-    for value in reversed(values):
-        linked_list.insert(value)
-    print(linked_list)
+    list_a = LinkedList()
+    for value in reversed([1, 2, 3]):
+        list_a.insert(value)
+    list_b = LinkedList()
+    for value in reversed(["a", "b", "c"]):
+        list_b.insert(value)
+    print(list_a)
+    print(list_b)
+    LinkedList.zip_lists(list_a, list_b)
+
 
 
