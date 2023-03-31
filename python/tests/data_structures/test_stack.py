@@ -1,5 +1,5 @@
 import pytest
-from data_structures.stack import Stack
+from stack.stack import Stack
 from data_structures.invalid_operation_error import InvalidOperationError
 
 
@@ -7,7 +7,7 @@ def test_exists():
     assert Stack
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_push_onto_empty():
     s = Stack()
     s.push("apple")
@@ -16,7 +16,7 @@ def test_push_onto_empty():
     assert actual == expected
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_push_onto_full():
     s = Stack()
     s.push("apple")
@@ -27,7 +27,7 @@ def test_push_onto_full():
     assert actual == expected
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_pop_single():
     s = Stack()
     s.push("apple")
