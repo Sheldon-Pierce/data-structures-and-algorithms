@@ -36,7 +36,7 @@ def test_pop_single():
     assert actual == expected
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_pop_some():
     s = Stack()
 

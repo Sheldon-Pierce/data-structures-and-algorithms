@@ -12,8 +12,12 @@ class Stack:
         self.top = node
 
     def pop(self):
-        top = self.top
-        self.top.next = top
+        del_item = self.top
+        top = self.top.next
+        self.top = top
+        return del_item.value
+
+    def is_empty(self):
 
     def some_method(self):
         # method body here
