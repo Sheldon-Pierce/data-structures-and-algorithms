@@ -1,3 +1,7 @@
+class InvalidOperationError(Exception):
+    value = 'Method not allowed on empty collection'
+
+
 class Stack:
     """
     Put docstring here
@@ -18,7 +22,15 @@ class Stack:
         return del_item.value
 
     def is_empty(self):
+        if self.top is None:
+            return True
+        return False
 
+    def peek(self):
+        if self.top:
+            return self.top.value
+        else:
+            raise Exception("Method not allowed on empty collection")
     def some_method(self):
         # method body here
         pass
@@ -33,9 +45,5 @@ class Node:
 
 if __name__ == '__main__':
     s = Stack()
-    s.push("apple")
-    print(s.top.value)
-    s.push("banana")
-    print(s.top.value)
-    s.push("cucumber")
-    print(s.top.value)
+    s.peek()
+    print(Exception.value)
