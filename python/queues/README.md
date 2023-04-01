@@ -1,6 +1,6 @@
 # Challenge Title
 <!-- Description of the challenge -->
-Implementing the methods needed for Stack method
+Implementing the methods needed for Queue method
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
 N/A
@@ -9,4 +9,4 @@ N/A
 N/A
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
-Python stack/stack.py
+Python queues/queues.py
