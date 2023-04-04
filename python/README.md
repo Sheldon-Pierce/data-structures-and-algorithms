@@ -96,3 +96,5 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 [stacks](./stack/README.md)
 
 [queues](./queues/README.md)
+
+[stacked_pseudo_code](./stack/README.md)
