@@ -100,3 +100,5 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 [stacked_pseudo_code](./stack/README.md)
 
 [stacked_queue_brackets](./stack/stack_queue_brackets.md)
+
+[trees](./binary_tree/README.md)
