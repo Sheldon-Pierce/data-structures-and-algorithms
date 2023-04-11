@@ -102,3 +102,5 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 [stacked_queue_brackets](./stack/stack_queue_brackets.md)
 
 [trees](./binary_tree/README.md)
+
+[tree-max](./binary_tree/tree_max_README.md)
