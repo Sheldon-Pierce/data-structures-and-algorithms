@@ -42,6 +42,16 @@ class BinaryTree:
         walk(self.root, values)
         return values
 
+    def find_maximum_value(self):
+
+        def walk(input_node):
+            if not input_node:
+                return -999999
+            left_val = walk(input_node.left)
+            right_val = walk(input_node.right)
+            return max(input_node.value, left_val, right_val)
+        return walk(self.root)
+
 
 class Node:
     def __init__(self, value, left=None, right=None):
