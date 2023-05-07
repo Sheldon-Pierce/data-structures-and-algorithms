@@ -104,3 +104,5 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 [trees](./binary_tree/README.md)
 
 [tree-max](./binary_tree/tree_max_README.md)
+
+[hashtable](./hashtable/README.md)
