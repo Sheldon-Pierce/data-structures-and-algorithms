@@ -15,15 +15,17 @@ class Queue:
         if not self.front:
             self.front = node
             self.back = node
-        self.back.next = node
-        self.back = node
+        else:
+            self.back.next = node
+            self.back = node
 
     def dequeue(self):
         if self.front:
             temp = self.front
             self.front = self.front.next
+            if not self.front:
+                self.back = None
             return temp.value
-        self.back = None
         raise InvalidOperationError
 
     def peek(self):
