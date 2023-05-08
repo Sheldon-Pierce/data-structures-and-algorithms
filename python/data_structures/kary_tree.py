@@ -1,4 +1,4 @@
-from queue.queue import Queue
+from queues.queues import Queue
 
 
 class KaryTree:
@@ -17,7 +17,7 @@ class KaryTree:
             collection.append(node.value)
             for child in node.children:
                 queue.enqueue(child)
-
+        print(collection)
         return collection
 
 
