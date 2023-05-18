@@ -1,5 +1,5 @@
 import pytest
-from data_structures.graph import Graph
+from graph.graph import Graph
 from code_challenges.graph_business_trip import direct_flights
 
 

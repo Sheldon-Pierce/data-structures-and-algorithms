@@ -1,5 +1,5 @@
 import pytest
-from data_structures.graph import Graph
+from graph.graph import Graph
 
 
 def test_exists():
