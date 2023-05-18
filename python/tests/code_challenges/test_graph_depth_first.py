@@ -1,5 +1,5 @@
 import pytest
-from data_structures.graph import Graph, Vertex
+from graph.graph import Graph, Vertex
 
 
 @pytest.mark.skip("TODO")

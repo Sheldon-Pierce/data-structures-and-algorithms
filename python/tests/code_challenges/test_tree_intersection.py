@@ -1,14 +1,14 @@
 import pytest
-from code_challenges.tree_intersection import tree_intersection
-from data_structures.binary_tree import BinaryTree, Node
-from queue.queue import Queue
+from treeIntersection.tree_intersection import tree_intersection
+from binary_tree.binary_tree import BinaryTree, Node
+from queues.queues import Queue
 
 
 def test_exists():
     assert tree_intersection
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_tree_intersection():
 
     tree_a = BinaryTree()
