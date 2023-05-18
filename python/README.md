@@ -106,3 +106,5 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 [tree-max](./binary_tree/tree_max_README.md)
 
 [hashtable](./hashtable/README.md)
+
+[hashtable_repeated_word](./hashtable/repeated_wordREADME.md)
