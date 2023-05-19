@@ -1,5 +1,7 @@
 import pytest
-from treeIntersection.tree_intersection import tree_intersection
+
+from tree_intersection.tree_intersection import tree_intersection
+
 from binary_tree.binary_tree import BinaryTree, Node
 from queues.queues import Queue
 
