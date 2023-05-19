@@ -1,12 +1,12 @@
 import pytest
-from code_challenges.hashtable_left_join import left_join
+from hashtable.hashtable_left_join import left_join
 
 
 def test_exists():
     assert left_join
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_example():
     synonyms = {
         "diligent": "employed",
