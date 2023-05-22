@@ -109,4 +109,7 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 
 [hashtable_repeated_word](./hashtable/repeated_wordREADME.md)
 
-[graph](./graph/graph_breadth_firstREADME.md)
+[graph_breadth_first](./graph/graph_breadth_firstREADME.md)
+
+[graph_business_trip](./graph/graph_business_tripREADME.md)
+
